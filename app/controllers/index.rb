@@ -15,3 +15,13 @@ post '/cool_url' do
   puts "[LOG] Params: #{params.inspect}"
   erb :post_cool_url
 end
+
+put '/cool_url' do
+  puts "[LOG] Putting to /cool_url"
+  puts "[LOG] Params: #{params.inspect}"
+  erb :put_cool_url
+end
+
+# asdf '/cool_url' do
+#   puts 'OMFG'
+# end
